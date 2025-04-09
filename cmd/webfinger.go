@@ -29,8 +29,8 @@ func handler(config *Config) http.HandlerFunc {
 
 		issuer := (&url.URL{
 			Scheme: "https",
-			Host:   config.Domain,
-			Path:   path.Join("application/o", config.AppName) + "/",
+			Host:   config.AuthentikHost,
+			Path:   path.Join("application/o", config.AuthentikApp) + "/",
 		}).String()
 
 		response := webfinger{

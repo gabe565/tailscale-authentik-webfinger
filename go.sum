@@ -1,7 +1,7 @@
 gabe565.com/utils v0.0.0-20250302063333-ede73b14282c h1:740ifPX0340EHhAPnr5PJ5FgpDFMX3EEmd8CMLcSi5I=
 gabe565.com/utils v0.0.0-20250302063333-ede73b14282c/go.mod h1:zPhcEoKWZOPz7CH+g3nzkKY/AOs+QEo9SokKKkJyq2U=
-github.com/USA-RedDragon/configulator v0.0.0-20250331064232-99b9e9ed3d5a h1:evtOo867bPuwJPdiG9p6EUkqPJreNBYPOHK19u49pxI=
-github.com/USA-RedDragon/configulator v0.0.0-20250331064232-99b9e9ed3d5a/go.mod h1:X/OR36V04+2h2uALY+c8WyqaAp/wSdcqARbJnyZc2Q4=
+github.com/USA-RedDragon/configulator v0.0.0-20250409213831-8d29f1f162be h1:saCQ8wKmNXjLO8a/MauX5Jyy3p2Lof61j/iNksrXd28=
+github.com/USA-RedDragon/configulator v0.0.0-20250409213831-8d29f1f162be/go.mod h1:X/OR36V04+2h2uALY+c8WyqaAp/wSdcqARbJnyZc2Q4=
 github.com/cpuguy83/go-md2man/v2 v2.0.6/go.mod h1:oOW0eioCTA6cOiMLiUPZOpcVxMig6NIQQ7OS05n1F4g=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

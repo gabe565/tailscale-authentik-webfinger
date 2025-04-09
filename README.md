@@ -9,9 +9,9 @@ A simple Go app that serves a `/.well-known/webfinger` endpoint for using Tailsc
 ## Usage
 
 ```shell
-docker run --detach \ 
-  --env DOMAIN=auth.example.com \
-  --env APP_NAME=tailscale \
+docker run --detach \
+  --env AK_HOST=auth.example.com \
+  --env AK_APP_NAME=tailscale \
   --port 3000:3000 \
   ghcr.io/gabe565/tailscale-authentik-webfinger
 ```
