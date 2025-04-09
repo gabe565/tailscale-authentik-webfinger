@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"context"
+	"log/slog"
 	"net/http"
 	"time"
 
@@ -45,6 +46,11 @@ func run(cmd *cobra.Command, _ []string) error {
 		return err
 	}
 
+	slog.Info("Tailscale Authentik Webfinger",
+		"version", cobrax.GetVersion(cmd),
+		"commit", cobrax.GetCommit(cmd),
+	)
+
 	r := chi.NewRouter()
 	r.Use(middleware.Heartbeat("/ping"))
 	if config.RealIPHeader {
@@ -62,5 +68,6 @@ func run(cmd *cobra.Command, _ []string) error {
 		ReadTimeout:    5 * time.Second,
 		MaxHeaderBytes: bytefmt.MiB,
 	}
+	slog.Info("Listening on " + server.Addr)
 	return server.ListenAndServe()
 }
