@@ -4,7 +4,7 @@ go 1.24.2
 
 require (
 	gabe565.com/utils v0.0.0-20250302063333-ede73b14282c
-	github.com/USA-RedDragon/configulator v0.0.0-20250409213831-8d29f1f162be
+	github.com/USA-RedDragon/configulator v0.0.0-20250824224851-420ff00fcf8b
 	github.com/go-chi/chi/v5 v5.2.1
 	github.com/spf13/cobra v1.9.1
 )
