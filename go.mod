@@ -4,7 +4,7 @@ go 1.26.1
 
 require (
 	gabe565.com/utils v0.0.0-20260310002041-b3b94f17b36b
-	github.com/USA-RedDragon/configulator v0.0.0-20250409213831-8d29f1f162be
+	github.com/USA-RedDragon/configulator v0.0.5
 	github.com/go-chi/chi/v5 v5.2.5
 	github.com/spf13/cobra v1.10.2
 )
