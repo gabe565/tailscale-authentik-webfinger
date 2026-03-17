@@ -1,4 +1,4 @@
-package cmd
+package webfinger
 
 import (
 	"bytes"
@@ -7,6 +7,8 @@ import (
 	"net/url"
 	"path"
 	"strings"
+
+	"gabe565.com/tailscale-authentik-webfinger/internal/config"
 )
 
 type webfinger struct {
@@ -19,7 +21,7 @@ type link struct {
 	Href string `json:"href"`
 }
 
-func handler(config *Config) http.HandlerFunc {
+func Handler(config *config.Config) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		resource := r.URL.Query().Get("resource")
 		if resource == "" || !strings.HasPrefix(resource, "acct:") || !strings.Contains(resource, "@") {

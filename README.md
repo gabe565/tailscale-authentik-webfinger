@@ -15,3 +15,7 @@ docker run --detach \
   --port 3000:3000 \
   ghcr.io/gabe565/tailscale-authentik-webfinger
 ```
+
+## Configuration
+
+See [envs.md](envs.md).
