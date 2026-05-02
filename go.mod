@@ -12,6 +12,6 @@ require (
 	github.com/gobwas/glob v0.2.3 // indirect
 )
 
-require github.com/caarlos0/env/v11 v11.4.0
+require github.com/caarlos0/env/v11 v11.4.1
 
 tool github.com/g4s8/envdoc
