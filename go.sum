@@ -1,5 +1,5 @@
-gabe565.com/utils v0.0.0-20260310002041-b3b94f17b36b h1:zb6yEf5hiByTqtLidjzPcQVVTRCBz1q54JDek/6XMCQ=
-gabe565.com/utils v0.0.0-20260310002041-b3b94f17b36b/go.mod h1:77YiYvy0oeBVtnmUje+xrvOHUBo8o2ZlsnI5spIDJ6Q=
+gabe565.com/utils v0.0.0-20260511235214-4059440fa83b h1:VSXnLVVh89Wc28Kch1q3Rzn9WWcubj2W4V1ZRVp62Bo=
+gabe565.com/utils v0.0.0-20260511235214-4059440fa83b/go.mod h1:77YiYvy0oeBVtnmUje+xrvOHUBo8o2ZlsnI5spIDJ6Q=
 github.com/caarlos0/env/v11 v11.4.0 h1:Kcb6t5kIIr4XkoQC9AF2j+8E1Jsrl3Wz/hhm1LtoGAc=
 github.com/caarlos0/env/v11 v11.4.0/go.mod h1:qupehSf/Y0TUTsxKywqRt/vJjN5nz6vauiYEUUr8P4U=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
