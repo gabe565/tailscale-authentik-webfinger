@@ -4,7 +4,7 @@ go 1.26.1
 
 require (
 	gabe565.com/utils v0.0.0-20260310002041-b3b94f17b36b
-	github.com/go-chi/chi/v5 v5.2.5
+	github.com/go-chi/chi/v5 v5.3.2
 )
 
 require (
