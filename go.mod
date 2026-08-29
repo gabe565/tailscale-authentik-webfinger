@@ -8,7 +8,7 @@ require (
 )
 
 require (
-	github.com/g4s8/envdoc v1.10.0 // indirect
+	github.com/g4s8/envdoc v1.12.0 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 )
 
